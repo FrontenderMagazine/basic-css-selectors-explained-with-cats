@@ -2,10 +2,12 @@
 
 ![confused-cat][1]
 
-Are you a visual learner? Do you resemble our bewildered friend above when
-trying to target elements for styling? If so, don’t worry, we’ll soon remedy 
-that. If you’re just starting to learn basic selector syntax it can be hard to 
-remember what does what. I’ve created this cat-based primer to guide you. Enjoy!
+Вам проще воспринимать информацию визуально? При попытке написать CSS-селектор
+для стилизации определённых элементов вы становитесь так же озадачены, как и наш
+мохнатый друг над этим абзацем? Если всё это про вас — не расстраивайтесь, скоро
+мы исправим это. Если вы только начинаете изучать синтаксис CSS-селекторов, то
+наверняка вы испытываете трудности с запоминанием того, какой селектор за что
+отвечает. Я написал это руководство с котиками для вас. Наслаждайтесь!
 
 ### Target a Parent
 
