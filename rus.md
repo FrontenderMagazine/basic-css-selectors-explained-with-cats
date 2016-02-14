@@ -1,4 +1,4 @@
-# Basic CSS Selector Syntax Explained Using Cats
+# Основы CSS-селекторов на примере котиков
 
 ![confused-cat][1]
 
@@ -9,11 +9,11 @@
 наверняка вы испытываете трудности с запоминанием того, какой селектор за что
 отвечает. Я написал это руководство с котиками для вас. Наслаждайтесь!
 
-### Target a Parent
+## Выбираем родителей
 
-Selecting a parent is as simple as using a class, id or element as your
-selector. Follow this with a [declaration block][2] and you’re in business.
-Here’s an example of the corresponding markup and styles, respectively.
+Чтобы выбрать родительский элемент, достаточно использовать в качестве селектора
+класс, идентификатор или имя элемента. Добавьте после селектора
+[блок объявлений][2], и на этом всё! Вот пример разметки и стилей:
 
     <div class="parent">
       <div class="child"></div>
@@ -26,24 +26,24 @@ Here’s an example of the corresponding markup and styles, respectively.
     }
     
 
-Here’s how it affects the [DOM][3], with blue highlighting the targeted element
-:
+Вот как стили повлияют на [DOM][3] (голубым подсвечен выбранный нашим селектором
+элемент):
 
 ![dom-cats][4]
 
-### Target a Child
+## Выбираем потомков
 
-It’s helpful to think about children in two different ways. First, there are
-direct children. Second, there are descendants. Direct children are immediately 
-nested within a parent. Descendants include immediate children, but also any 
-matching element further down the DOM.
+Потомки бывают двух видов. Первый вид — прямые потомки — это те элементы,
+которые непосредственно вложены в родителя без всяких промежуточных элементов.
+Второй вид — косвенные потомки, они включают в себя как прямых потомков, так
+и вложенные в них элементы, и так далее вглубь DOM-дерева.
 
-###### Targeting a Direct Child
+### Прямые потомки
 
-Placing a `>` between selectors tells the browser to find the first selector
-(the parent) and then go inside of it to find the second selector (its child). 
-In the following example we’re looking for any element that’s*immediately*
-nested within`.parent` with the class of `.child`.
+Знак `>` между селекторами говорит браузеру сперва найти элемент по первому
+селектору, а затем найти всех прямых потомков этого элемента, соответствующих
+второму селектору. В следующем примере мы выбираем только тех потомков `.child`,
+которые лежат непосредственно внутри `.parent`:
 
     <div class="parent">
       <div class="child"></div>
@@ -57,7 +57,7 @@ nested within`.parent` with the class of `.child`.
     }
     
 
-Here’s how it affects the DOM:
+Вот как это повлияет на DOM:
 
 ![cats][5]
 
