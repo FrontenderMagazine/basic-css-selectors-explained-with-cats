@@ -57,17 +57,17 @@
     }
     
 
-Вот как это повлияет на DOM:
+Эти селекторы выберут следующие элементы DOM:
 
 ![cats][5]
 
-###### Targeting a Descendant
+### Косвенные потомки
 
-The descendant selector is less specific than the direct child selector. It
-targets any element within a parent that has the class of`.child` no matter how
-far down the DOM tree it resides. To use it we place a space between selectors. 
-In the following example we’re looking for*any* element nested within `.parent`
-`.child`.
+Селектор для выбора косвенных потомков менее специфичен, чем селектор для выбора
+прямых потомков. Этот селектор — обычный пробел между двумя селекторами.
+Адаптируем предыдущий пример и заменим селектор прямых потомков на селектор
+косвенных потомков. Браузер выберет все элементы `.child`, вложенные в элемент
+`.parent`, независимо от того, насколько глубоко они находятся в DOM-дереве:
 
     <div class="parent">
       <div class="child"></div>
@@ -81,7 +81,7 @@ In the following example we’re looking for*any* element nested within `.parent
     }
     
 
-Here’s how it affects the DOM:
+Вот как это будет работать:
 
 ![cats][6]
 
