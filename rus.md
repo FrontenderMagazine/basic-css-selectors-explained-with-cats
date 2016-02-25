@@ -85,11 +85,11 @@
 
 ![cats][6]
 
-### Target an Adjacent Sibling
+## Выбираем соседние элементы
 
-An adjacent sibling is an element that resides next to, and on the same level
-of the DOM as another. Targeting them is simple. In this case what we need to do
-is join the selectors together with a`+`. Check out the example below.
+Соседним называется элемент, следующий сразу за выбранным элементом, причём они
+оба располагаются на одном уровне DOM-дерева. Выбирать соседние элементы просто.
+Для этого нужно объединить два селектора знаком `+`. Взгляните на пример:
 
     <div class="parent">
       <div class="child"></div>
@@ -106,7 +106,7 @@ is join the selectors together with a`+`. Check out the example below.
     }
     
 
-Here’s how it affects the DOM:
+Как это будет работать на DOM:
 
 ![cats][7]
 
