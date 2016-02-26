@@ -110,11 +110,10 @@
 
 ![cats][7]
 
-### Using Multiple Selectors
+### Применяем несколько селекторов
 
-Sometimes you want to apply styles to multiple elements. So how does that work
-? The answer is quite simple. All one has to do is separate each selector with a
-comma. Here’s an example.
+Иногда вам может потребоваться применить стили к множеству разных элементов. Как
+это сделать? Ответ довольно прост. Нужно лишь разделить селекторы запятой:
 
     <div class="parent">
       <div class="child"></div>
@@ -128,7 +127,7 @@ comma. Here’s an example.
     }
     
 
-Here’s how it affects the DOM:
+Вот как это сработает на DOM:
 
 ![cats][8]
 
