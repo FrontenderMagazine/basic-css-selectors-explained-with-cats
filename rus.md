@@ -131,15 +131,15 @@
 
 ![cats][8]
 
-### Finish Strong
+### Финишируем
 
-To learn even more about CSS selectors (though sadly with no cats), try 
-[CSS Diner][9], which will lead you from basic to complex selectors using
-delicious food.
+Для дальнейшего изучения CSS-селекторов попробуйте ресурс [CSS Diner][9]
+(но там, к сожалению, нет котиков). Он последовательно научит вас использовать
+как простые, так и сложные селекторы на примере столовых приборов и вкусной еды.
 
-###### Props
+### Права
 
-Thanks to all the cat lovers of Flickr. All cats herded under 
+Спасибо всем любителям котиков с Flickr. Все котики распространяются под 
 [Creative Commons Attribution 2.0 Generic][10].
 
 ![cat][11]
