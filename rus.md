@@ -70,8 +70,9 @@
 В этом примере мы выберем все дочерние `.child` вложенные в `.parent`:
 
     <div class="parent">
-      <div class="child"></div>
+      <div class="child">
         <div class="grand child"></div>
+      </div>
       <div class="child"></div>
     </div>
     
