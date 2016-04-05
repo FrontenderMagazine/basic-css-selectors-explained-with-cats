@@ -45,8 +45,9 @@
 которые лежат непосредственно внутри `.parent`:
 
     <div class="parent">
-      <div class="child"></div>
+      <div class="child">
         <div class="grand child"></div>
+      </div>
       <div class="child"></div>
     </div>
     
